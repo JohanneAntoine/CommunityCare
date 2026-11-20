@@ -577,3 +577,14 @@ ul {
     margin: 0px 5px;
   }
 }
+ .column-3 {
+  float: left;
+  padding: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
